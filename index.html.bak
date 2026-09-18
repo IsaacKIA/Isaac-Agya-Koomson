@@ -1,0 +1,3215 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="theme-color" content="#060608">
+  <title>Isaac Agya Koomson (KIA) — Economic Systems & Innovation Strategist</title>
+  <meta name="description" content="Official portfolio of Isaac Agya Koomson (KIA) — Economic Systems Strategist, Innovation Consultant, Founder of KIA-Start Up Consult, HopeFusion Africa & Civitas. Advisor to 50+ startups and international delegate.">
+  <meta name="keywords" content="Isaac Agya Koomson, KIA, Economic Systems Consultant, Startup Acceleration Africa, Innovation Policy, HopeFusion Africa, Civitas, IMF World Bank Delegate, Ghana Innovation">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Isaac Agya Koomson (KIA) — Economic Systems & Innovation Strategist">
+  <meta property="og:description" content="Translating development policy into scalable enterprise growth, digital transformation, and youth employment outcomes across Africa.">
+  <meta property="og:image" content="assets/portrait-main.jpg">
+
+  <!-- Fonts: Cormorant Garamond for regal editorial elegance, Plus Jakarta Sans for precision modernism, Cinzel Decorative for haute monograms -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    /* -------------------------------------------------------------
+       DESIGN SYSTEM & ROOT VARIABLES (HAUTE LUXE NOIR & OR)
+       ------------------------------------------------------------- */
+    :root {
+      --bg-void: #040405;
+      --bg-surface-1: #09090c;
+      --bg-surface-2: #111116;
+      --bg-surface-3: #18181f;
+      --bg-glass: rgba(14, 14, 18, 0.72);
+      --bg-glass-card: rgba(18, 18, 24, 0.65);
+      
+      --gold-100: #fff5cc;
+      --gold-200: #f4e39b;
+      --gold-300: #e5cb67;
+      --gold-primary: #d4af37; /* Royal Metallic Champagne Gold */
+      --gold-deep: #b38b1e;
+      --gold-dark: #7a5a0d;
+      --gold-gradient: linear-gradient(135deg, #fef3bd 0%, #d4af37 45%, #946f14 100%);
+      --gold-sheen: linear-gradient(90deg, transparent 0%, rgba(254, 243, 189, 0.35) 50%, transparent 100%);
+      --gold-glow: rgba(212, 175, 55, 0.18);
+      --gold-border: rgba(212, 175, 55, 0.28);
+      --gold-border-hover: rgba(244, 227, 155, 0.65);
+
+      --text-white: #faf9f6;
+      --text-creme: #ebe7de;
+      --text-muted: #a3a099;
+      --text-dim: #6c6963;
+
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --border-card: rgba(255, 255, 255, 0.11);
+      
+      --font-serif: 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-display: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
+
+      --radius-sm: 4px;
+      --radius-md: 10px;
+      --radius-lg: 18px;
+      --radius-pill: 9999px;
+
+      --transition-smooth: all 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+      --transition-bounce: all 0.55s cubic-bezier(0.34, 1.56, 0.64, 1);
+      --container-max: 1340px;
+    }
+
+    /* -------------------------------------------------------------
+       RESET & BASE FOUNDATIONS
+       ------------------------------------------------------------- */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      background-color: var(--bg-void);
+      color: var(--text-creme);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--bg-void);
+      background-image: 
+        radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.08) 0%, transparent 60%),
+        radial-gradient(circle at 100% 40%, rgba(212, 175, 55, 0.04) 0%, transparent 45%),
+        radial-gradient(circle at 0% 80%, rgba(212, 175, 55, 0.03) 0%, transparent 50%);
+      background-attachment: fixed;
+      line-height: 1.65;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Custom Ambient Noise Overlay */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 999;
+      opacity: 0.025;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: var(--transition-smooth);
+    }
+
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-family: inherit;
+      color: inherit;
+    }
+
+    ::selection {
+      background: var(--gold-primary);
+      color: var(--bg-void);
+    }
+
+    /* -------------------------------------------------------------
+       CUSTOM CURSOR
+       ------------------------------------------------------------- */
+    .custom-cursor-dot,
+    .custom-cursor-ring {
+      pointer-events: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      z-index: 10000;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.3s ease;
+    }
+
+    .custom-cursor-dot {
+      width: 6px;
+      height: 6px;
+      background: var(--gold-200);
+      box-shadow: 0 0 10px var(--gold-primary);
+    }
+
+    .custom-cursor-ring {
+      width: 38px;
+      height: 38px;
+      border: 1px solid rgba(212, 175, 55, 0.45);
+      transition: transform 0.18s ease-out, width 0.25s ease, height 0.25s ease, border-color 0.25s ease;
+    }
+
+    body.hovering .custom-cursor-ring {
+      width: 60px;
+      height: 60px;
+      border-color: var(--gold-300);
+      background: rgba(212, 175, 55, 0.06);
+    }
+
+    @media (pointer: coarse) {
+      .custom-cursor-dot, .custom-cursor-ring { display: none; }
+    }
+
+    /* -------------------------------------------------------------
+       LAYOUT CONTAINERS & UTILITIES
+       ------------------------------------------------------------- */
+    .container {
+      width: 100%;
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 clamp(1.25rem, 4vw, 3.5rem);
+    }
+
+    .section {
+      padding: clamp(5.5rem, 11vw, 10.5rem) 0;
+      position: relative;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .gold-gradient-text {
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+
+    .gold-glow-text {
+      text-shadow: 0 0 35px rgba(212, 175, 55, 0.3);
+    }
+
+    /* -------------------------------------------------------------
+       TYPOGRAPHIC RHYTHM
+       ------------------------------------------------------------- */
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-family: var(--font-sans);
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.26em;
+      color: var(--gold-primary);
+      margin-bottom: 1.25rem;
+    }
+
+    .eyebrow::before {
+      content: "";
+      display: inline-block;
+      width: 24px;
+      height: 1px;
+      background: var(--gold-primary);
+    }
+
+    h1, h2, h3, h4 {
+      color: var(--text-white);
+      font-weight: 700;
+      line-height: 1.08;
+      letter-spacing: -0.035em;
+    }
+
+    .display-1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.85rem, 6.8vw, 6.4rem);
+      line-height: 0.94;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(2.35rem, 5vw, 4.4rem);
+      line-height: 1.02;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.75rem;
+    }
+
+    .section-title em {
+      font-style: italic;
+      font-family: var(--font-serif);
+      color: var(--gold-200);
+    }
+
+    .lead-paragraph {
+      font-size: clamp(1.08rem, 1.6vw, 1.32rem);
+      line-height: 1.75;
+      color: var(--text-muted);
+      max-width: 760px;
+    }
+
+    /* -------------------------------------------------------------
+       NAVIGATION BAR (LUXURY SLEEK GLASS CAPSULE)
+       ------------------------------------------------------------- */
+    .header-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      padding: 1.25rem 0;
+      transition: var(--transition-smooth);
+    }
+
+    .header-nav.scrolled {
+      padding: 0.75rem 0;
+      background: var(--bg-glass);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border-subtle);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand-mark {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: var(--text-white);
+    }
+
+    .brand-monogram {
+      width: 40px;
+      height: 40px;
+      border: 1px solid var(--gold-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      background: radial-gradient(circle, rgba(212,175,55,0.12) 0%, transparent 80%);
+      transition: var(--transition-smooth);
+    }
+
+    .brand-monogram span {
+      font-family: var(--font-display);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      color: var(--gold-200);
+    }
+
+    .brand-mark:hover .brand-monogram {
+      border-color: var(--gold-primary);
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.35);
+      transform: rotate(4deg);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 2.25rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-weight: 600;
+      color: var(--text-muted);
+      position: relative;
+      padding: 6px 0;
+    }
+
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--gold-primary);
+      transition: var(--transition-smooth);
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--text-white);
+    }
+
+    .nav-links a:hover::after,
+    .nav-links a.active::after {
+      width: 100%;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .btn-gold-outline {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0.65rem 1.35rem;
+      border: 1px solid var(--gold-border);
+      border-radius: var(--radius-sm);
+      color: var(--gold-200);
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-weight: 700;
+      position: relative;
+      overflow: hidden;
+      background: rgba(212, 175, 55, 0.03);
+      transition: var(--transition-smooth);
+    }
+
+    .btn-gold-outline::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: var(--gold-gradient);
+      opacity: 0;
+      transition: var(--transition-smooth);
+      z-index: 1;
+    }
+
+    .btn-gold-outline span {
+      position: relative;
+      z-index: 2;
+      transition: var(--transition-smooth);
+    }
+
+    .btn-gold-outline:hover {
+      border-color: var(--gold-primary);
+      box-shadow: 0 0 25px rgba(212, 175, 55, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .btn-gold-outline:hover::before {
+      opacity: 1;
+    }
+
+    .btn-gold-outline:hover span {
+      color: var(--bg-void);
+      font-weight: 800;
+    }
+
+    .menu-toggle {
+      display: none;
+      width: 44px;
+      height: 44px;
+      position: relative;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .menu-toggle span {
+      display: block;
+      width: 20px;
+      height: 1.5px;
+      background: var(--gold-200);
+      transition: var(--transition-smooth);
+    }
+
+    /* Mobile Drawer */
+    .mobile-drawer {
+      position: fixed;
+      inset: 0;
+      background: rgba(4, 4, 6, 0.96);
+      backdrop-filter: blur(28px);
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 3rem 2rem;
+      transform: translateY(-100%);
+      transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .mobile-drawer.open {
+      transform: translateY(0);
+    }
+
+    .mobile-nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+    }
+
+    .mobile-nav-list a {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-creme);
+    }
+
+    .mobile-nav-list a:hover {
+      color: var(--gold-primary);
+      padding-left: 10px;
+    }
+
+    /* -------------------------------------------------------------
+       HERO SECTION — HIGH IMPACT EDITORIAL MASTERWORK
+       ------------------------------------------------------------- */
+    .hero-section {
+      min-height: 100vh;
+      padding-top: clamp(6.5rem, 12vh, 9.5rem);
+      padding-bottom: clamp(4rem, 8vh, 6.5rem);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      border-top: none;
+    }
+
+    .hero-backdrop-glow {
+      position: absolute;
+      top: 15%;
+      right: 5%;
+      width: clamp(350px, 45vw, 650px);
+      height: clamp(350px, 45vw, 650px);
+      background: radial-gradient(circle, rgba(212, 175, 55, 0.12) 0%, rgba(212, 175, 55, 0.02) 50%, transparent 70%);
+      border-radius: 50%;
+      filter: blur(50px);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: clamp(2.5rem, 5vw, 5.5rem);
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 6px 16px;
+      background: rgba(212, 175, 55, 0.06);
+      border: 1px solid var(--gold-border);
+      border-radius: var(--radius-pill);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--gold-200);
+      margin-bottom: 1.75rem;
+    }
+
+    .pulse-indicator {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 10px #10b981;
+      animation: pulseGreen 2.2s infinite;
+    }
+
+    @keyframes pulseGreen {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(1.35); }
+    }
+
+    .hero-title-group h1 {
+      margin-bottom: 1.25rem;
+    }
+
+    .hero-title-group .title-lead {
+      display: block;
+      font-family: var(--font-sans);
+      font-size: clamp(0.9rem, 1.4vw, 1.2rem);
+      letter-spacing: 0.24em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--gold-primary);
+      margin-bottom: 0.6rem;
+    }
+
+    .hero-title-group .name-headline {
+      display: block;
+      font-family: var(--font-display);
+      font-size: clamp(2.75rem, 6.2vw, 5.8rem);
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 0.95;
+      text-transform: uppercase;
+      color: var(--text-white);
+    }
+
+    .hero-title-group .mandate-phrase {
+      display: block;
+      font-family: var(--font-serif);
+      font-size: clamp(1.8rem, 3.8vw, 3.4rem);
+      font-weight: 300;
+      font-style: italic;
+      color: var(--gold-200);
+      line-height: 1.15;
+      margin-top: 0.65rem;
+    }
+
+    .hero-narrative {
+      font-size: clamp(1.05rem, 1.45vw, 1.25rem);
+      line-height: 1.75;
+      color: var(--text-creme);
+      margin-top: 1.75rem;
+      max-width: 620px;
+    }
+
+    .hero-narrative strong {
+      color: var(--text-white);
+      font-weight: 600;
+    }
+
+    .hero-stats-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-top: 2.75rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .stat-item .stat-num {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 3.2vw, 2.9rem);
+      font-weight: 700;
+      color: var(--gold-200);
+      line-height: 1;
+      display: flex;
+      align-items: baseline;
+      gap: 2px;
+    }
+
+    .stat-item .stat-num span {
+      color: var(--gold-primary);
+    }
+
+    .stat-item .stat-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+      line-height: 1.35;
+      font-weight: 500;
+    }
+
+    .hero-cta-cluster {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      margin-top: 2.5rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-gold-solid {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 0.9rem 2rem;
+      background: var(--gold-gradient);
+      color: #040405;
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-weight: 800;
+      border-radius: var(--radius-sm);
+      box-shadow: 0 8px 25px rgba(212, 175, 55, 0.28);
+      position: relative;
+      overflow: hidden;
+      transition: var(--transition-bounce);
+    }
+
+    .btn-gold-solid:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 14px 35px rgba(212, 175, 55, 0.45);
+    }
+
+    .btn-gold-solid svg {
+      width: 15px;
+      height: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .btn-gold-solid:hover svg {
+      transform: translateX(4px);
+    }
+
+    .btn-editorial-link {
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-weight: 700;
+      color: var(--text-creme);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0.85rem 1.25rem;
+      position: relative;
+    }
+
+    .btn-editorial-link::after {
+      content: "";
+      position: absolute;
+      bottom: 6px;
+      left: 1.25rem;
+      right: 1.25rem;
+      height: 1px;
+      background: var(--gold-border);
+      transition: var(--transition-smooth);
+    }
+
+    .btn-editorial-link:hover {
+      color: var(--gold-200);
+    }
+
+    .btn-editorial-link:hover::after {
+      background: var(--gold-primary);
+      right: 0.5rem;
+    }
+
+    /* -------------------------------------------------------------
+       HERO PORTRAIT STAGE (EDITORIAL CURATED CANVAS)
+       ------------------------------------------------------------- */
+    .hero-portrait-stage {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .portrait-canvas-wrapper {
+      position: relative;
+      width: min(440px, 92%);
+      aspect-ratio: 4 / 5;
+    }
+
+    /* Spun Gold Framing Geometry */
+    .portrait-frame-border {
+      position: absolute;
+      inset: -14px;
+      border: 1px solid var(--gold-border);
+      pointer-events: none;
+      z-index: 1;
+      transition: var(--transition-smooth);
+    }
+
+    .portrait-frame-corner-tl,
+    .portrait-frame-corner-br {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      border-color: var(--gold-primary);
+      z-index: 2;
+    }
+
+    .portrait-frame-corner-tl {
+      top: -18px;
+      left: -18px;
+      border-top: 2px solid var(--gold-primary);
+      border-left: 2px solid var(--gold-primary);
+    }
+
+    .portrait-frame-corner-br {
+      bottom: -18px;
+      right: -18px;
+      border-bottom: 2px solid var(--gold-primary);
+      border-right: 2px solid var(--gold-primary);
+    }
+
+    .portrait-canvas-wrapper:hover .portrait-frame-border {
+      border-color: var(--gold-border-hover);
+      transform: scale(1.02);
+    }
+
+    .portrait-visual-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: var(--bg-surface-2);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8), 0 0 45px rgba(212, 175, 55, 0.08);
+    }
+
+    .portrait-visual-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 18%;
+      filter: contrast(1.06) brightness(0.98);
+      transition: transform 0.85s cubic-bezier(0.16, 1, 0.3, 1), filter 0.85s ease;
+    }
+
+    .portrait-canvas-wrapper:hover .portrait-visual-container img {
+      transform: scale(1.04);
+      filter: contrast(1.1) brightness(1.02);
+    }
+
+    /* Vignette and Gold Lustre */
+    .portrait-visual-container::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(4, 4, 5, 0.88) 0%, rgba(4, 4, 5, 0.15) 45%, transparent 100%);
+      pointer-events: none;
+    }
+
+    /* Floating Verified Plaque */
+    .portrait-floating-plaque {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      z-index: 3;
+      padding: 14px 18px;
+      background: rgba(10, 10, 14, 0.82);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid var(--gold-border);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .plaque-credentials h4 {
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-white);
+    }
+
+    .plaque-credentials p {
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold-primary);
+      margin-top: 2px;
+    }
+
+    .plaque-badge {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(212, 175, 55, 0.12);
+      border: 1px solid var(--gold-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold-200);
+    }
+
+    /* Subtle Architectural Background Watermark */
+    .portrait-watermark {
+      position: absolute;
+      top: -30px;
+      right: -30px;
+      font-family: var(--font-display);
+      font-size: 140px;
+      font-weight: 900;
+      color: rgba(212, 175, 55, 0.04);
+      line-height: 1;
+      pointer-events: none;
+      z-index: 0;
+      user-select: none;
+    }
+
+    /* -------------------------------------------------------------
+       SECTION: THE MANIFESTO & PHILOSOPHY
+       ------------------------------------------------------------- */
+    .manifesto-quote-box {
+      border-left: 2px solid var(--gold-primary);
+      padding: 1.5rem 0 1.5rem 2.5rem;
+      margin: 2.5rem 0;
+    }
+
+    .manifesto-quote-box blockquote {
+      font-family: var(--font-serif);
+      font-size: clamp(1.85rem, 3.8vw, 3.1rem);
+      line-height: 1.22;
+      font-weight: 400;
+      color: var(--text-white);
+    }
+
+    .manifesto-quote-box blockquote span {
+      color: var(--gold-200);
+      font-style: italic;
+    }
+
+    .manifesto-author {
+      margin-top: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--gold-primary);
+      font-weight: 700;
+    }
+
+    .manifesto-author::before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 1px;
+      background: var(--gold-primary);
+    }
+
+    .dual-narrative-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(2rem, 5vw, 4.5rem);
+      margin-top: 3.5rem;
+    }
+
+    .narrative-col p {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+    }
+
+    .narrative-col p strong {
+      color: var(--text-creme);
+    }
+
+    /* -------------------------------------------------------------
+       SECTION: THE SIX STRATEGIC PILLARS (INTERACTIVE ARCHITECTURE)
+       ------------------------------------------------------------- */
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--border-subtle);
+      margin-top: 4rem;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .pillar-card {
+      background: var(--bg-surface-1);
+      padding: clamp(2rem, 3.5vw, 3.25rem);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 310px;
+      transition: var(--transition-smooth);
+    }
+
+    .pillar-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--gold-gradient);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: var(--transition-smooth);
+    }
+
+    .pillar-card:hover {
+      background: var(--bg-surface-2);
+      transform: translateY(-4px);
+      z-index: 2;
+    }
+
+    .pillar-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .pillar-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    .pillar-number {
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--gold-primary);
+      letter-spacing: 0.1em;
+    }
+
+    .pillar-icon-symbol {
+      color: var(--gold-deep);
+      opacity: 0.4;
+      font-size: 1.2rem;
+    }
+
+    .pillar-card:hover .pillar-icon-symbol {
+      opacity: 1;
+      color: var(--gold-primary);
+      transform: rotate(45deg);
+      transition: transform 0.4s ease;
+    }
+
+    .pillar-body {
+      margin-top: 2rem;
+    }
+
+    .pillar-body h3 {
+      font-family: var(--font-sans);
+      font-size: 1.45rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.85rem;
+      color: var(--text-white);
+      text-transform: uppercase;
+    }
+
+    .pillar-body p {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    .pillar-footer-tag {
+      font-size: 0.68rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold-deep);
+      font-weight: 700;
+      margin-top: 1.5rem;
+    }
+
+    /* -------------------------------------------------------------
+       SECTION: FLAGSHIP VENTURES & INSTITUTIONAL ECOSYSTEM
+       ------------------------------------------------------------- */
+    .venture-dossier-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+      margin-top: 4rem;
+    }
+
+    .venture-dossier-card {
+      background: var(--bg-glass-card);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      position: relative;
+      transition: var(--transition-smooth);
+    }
+
+    .venture-dossier-card:hover {
+      border-color: var(--gold-border);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 30px rgba(212, 175, 55, 0.08);
+    }
+
+    .venture-content-pane {
+      padding: clamp(2.25rem, 4vw, 3.75rem);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .venture-meta-tags {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 1.25rem;
+    }
+
+    .tag-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.68rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: var(--radius-sm);
+      background: rgba(212, 175, 55, 0.08);
+      color: var(--gold-200);
+      border: 1px solid var(--gold-border);
+    }
+
+    .tag-timeline {
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .venture-headline h3 {
+      font-family: var(--font-serif);
+      font-size: clamp(2rem, 3.4vw, 3rem);
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      color: var(--text-white);
+      margin-bottom: 0.75rem;
+    }
+
+    .venture-role-badge {
+      display: inline-block;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--gold-primary);
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+    }
+
+    .venture-body-text {
+      font-size: 1.02rem;
+      line-height: 1.7;
+      color: var(--text-muted);
+      margin-bottom: 1.75rem;
+    }
+
+    .venture-metrics-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+      padding: 1.25rem 0;
+      border-top: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 1.75rem;
+    }
+
+    .venture-metric-point strong {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      color: var(--gold-200);
+      font-weight: 700;
+    }
+
+    .venture-metric-point span {
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .venture-links-action {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .venture-media-pane {
+      position: relative;
+      overflow: hidden;
+      background: var(--bg-surface-2);
+      min-height: 320px;
+    }
+
+    .venture-media-pane img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), filter 0.8s ease;
+      filter: contrast(1.05) brightness(0.92);
+    }
+
+    .venture-dossier-card:hover .venture-media-pane img {
+      transform: scale(1.05);
+      filter: contrast(1.1) brightness(1.02);
+    }
+
+    .venture-media-pane::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(14, 14, 18, 0.7) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    /* -------------------------------------------------------------
+       SECTION: GLOBAL POLICY, DIPLOMACY & MULTILATERAL DELEGATIONS
+       ------------------------------------------------------------- */
+    .diplomacy-split-layout {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: clamp(2.5rem, 6vw, 6rem);
+      align-items: center;
+    }
+
+    .diplomacy-photo-mosaic {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 16px;
+      position: relative;
+    }
+
+    .mosaic-tile {
+      position: relative;
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      border: 1px solid var(--border-card);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+    }
+
+    .mosaic-tile img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .mosaic-tile:hover img {
+      transform: scale(1.04);
+    }
+
+    .mosaic-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 10px 14px;
+      background: linear-gradient(to top, rgba(4, 4, 6, 0.95), transparent);
+      font-size: 0.68rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold-100);
+      font-weight: 600;
+    }
+
+    .delegation-roster {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .delegation-entry {
+      padding: 1.25rem 1.5rem;
+      background: var(--bg-surface-1);
+      border-left: 2px solid var(--gold-primary);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      border-top: 1px solid var(--border-subtle);
+      border-right: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+      transition: var(--transition-smooth);
+    }
+
+    .delegation-entry:hover {
+      background: var(--bg-surface-2);
+      transform: translateX(6px);
+      border-left-color: var(--gold-200);
+    }
+
+    .delegation-badge-title {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--gold-primary);
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+    }
+
+    .delegation-entry h4 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--text-white);
+      margin-bottom: 0.35rem;
+    }
+
+    .delegation-entry p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    /* -------------------------------------------------------------
+       SECTION: KEYNOTES, STAGE & THOUGHT LEADERSHIP
+       ------------------------------------------------------------- */
+    .keynote-marquee-container {
+      margin-top: 3.5rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.75rem;
+    }
+
+    .keynote-card {
+      background: var(--bg-surface-1);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: var(--transition-smooth);
+    }
+
+    .keynote-card:hover {
+      border-color: var(--gold-border);
+      transform: translateY(-6px);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.7), 0 0 25px rgba(212, 175, 55, 0.1);
+    }
+
+    .keynote-thumb {
+      height: 220px;
+      position: relative;
+      overflow: hidden;
+      background: #111;
+    }
+
+    .keynote-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .keynote-card:hover .keynote-thumb img {
+      transform: scale(1.06);
+    }
+
+    .keynote-badge-tag {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      padding: 4px 10px;
+      border-radius: var(--radius-sm);
+      background: rgba(4, 4, 6, 0.85);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--gold-border);
+      font-size: 0.65rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--gold-200);
+    }
+
+    .keynote-body {
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+    }
+
+    .keynote-meta {
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold-deep);
+      font-weight: 700;
+      margin-bottom: 0.65rem;
+    }
+
+    .keynote-body h4 {
+      font-family: var(--font-serif);
+      font-size: 1.55rem;
+      font-weight: 500;
+      line-height: 1.25;
+      margin-bottom: 0.85rem;
+      color: var(--text-white);
+    }
+
+    .keynote-body p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .keynote-footer-action {
+      margin-top: 1.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .keynote-action-btn {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-weight: 700;
+      color: var(--gold-primary);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .keynote-action-btn:hover {
+      color: var(--gold-100);
+    }
+
+    /* -------------------------------------------------------------
+       SECTION: VERIFIED ENDORSEMENTS & EXECUTIVE TESTIMONIALS
+       ------------------------------------------------------------- */
+    .testimonial-carousel-wrapper {
+      margin-top: 3.5rem;
+      position: relative;
+    }
+
+    .testimonial-tabs-nav {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      overflow-x: auto;
+      padding-bottom: 1rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      scrollbar-width: none;
+    }
+
+    .testimonial-tabs-nav::-webkit-scrollbar {
+      display: none;
+    }
+
+    .tab-endorse-btn {
+      padding: 8px 18px;
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-weight: 600;
+      color: var(--text-muted);
+      border: 1px solid transparent;
+      border-radius: var(--radius-pill);
+      white-space: nowrap;
+      transition: var(--transition-smooth);
+    }
+
+    .tab-endorse-btn.active,
+    .tab-endorse-btn:hover {
+      color: var(--gold-200);
+      background: rgba(212, 175, 55, 0.08);
+      border-color: var(--gold-border);
+    }
+
+    .testimonial-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+
+    .testimonial-card {
+      background: var(--bg-surface-1);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-md);
+      padding: clamp(2rem, 3.5vw, 3rem);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      transition: var(--transition-smooth);
+    }
+
+    .testimonial-card:hover {
+      border-color: var(--gold-border);
+      transform: translateY(-4px);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+    }
+
+    .quote-icon-mark {
+      font-family: var(--font-serif);
+      font-size: 4rem;
+      line-height: 0.8;
+      color: var(--gold-primary);
+      opacity: 0.28;
+      margin-bottom: 0.75rem;
+    }
+
+    .testimonial-quote-text {
+      font-family: var(--font-serif);
+      font-size: 1.28rem;
+      font-style: italic;
+      line-height: 1.6;
+      color: var(--text-creme);
+      margin-bottom: 2rem;
+    }
+
+    .testimonial-author-block {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .author-avatar-initials {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: var(--bg-surface-3);
+      border: 1px solid var(--gold-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--gold-200);
+      flex-shrink: 0;
+    }
+
+    .author-meta-details h5 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-white);
+      letter-spacing: 0.02em;
+    }
+
+    .author-meta-details p {
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+      margin-top: 2px;
+    }
+
+    .author-endorsement-relation {
+      display: inline-block;
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--gold-primary);
+      font-weight: 700;
+      margin-top: 4px;
+    }
+
+    /* -------------------------------------------------------------
+       SECTION: HONORS, AWARDS & ACADEMIC CREDENTIALS
+       ------------------------------------------------------------- */
+    .honors-mosaic-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(2rem, 5vw, 4rem);
+      margin-top: 3.5rem;
+    }
+
+    .award-spotlight-card {
+      position: relative;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--gold-border);
+      background: var(--bg-surface-1);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+    }
+
+    .award-spotlight-image {
+      height: 380px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .award-spotlight-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      filter: contrast(1.06);
+    }
+
+    .award-spotlight-image::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(4, 4, 6, 0.96) 0%, rgba(4, 4, 6, 0.2) 60%, transparent 100%);
+    }
+
+    .award-spotlight-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: clamp(1.75rem, 3vw, 2.5rem);
+      z-index: 2;
+    }
+
+    .award-year-tag {
+      font-family: var(--font-display);
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--gold-primary);
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .award-spotlight-content h3 {
+      font-family: var(--font-serif);
+      font-size: clamp(1.85rem, 2.8vw, 2.4rem);
+      font-weight: 500;
+      line-height: 1.15;
+      color: var(--text-white);
+      margin-bottom: 0.5rem;
+    }
+
+    .award-spotlight-content p {
+      font-size: 0.88rem;
+      color: var(--text-creme);
+      opacity: 0.85;
+      line-height: 1.5;
+    }
+
+    .credentials-ledger {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .credential-block {
+      background: var(--bg-surface-1);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-sm);
+      padding: 1.5rem 1.75rem;
+      transition: var(--transition-smooth);
+    }
+
+    .credential-block:hover {
+      border-color: var(--gold-border);
+      background: var(--bg-surface-2);
+      transform: translateX(4px);
+    }
+
+    .credential-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--gold-primary);
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+    }
+
+    .credential-block h4 {
+      font-size: 1.18rem;
+      font-weight: 600;
+      color: var(--text-white);
+      margin-bottom: 0.35rem;
+    }
+
+    .credential-block p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .affiliations-pills-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 1rem;
+    }
+
+    .affiliation-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-pill);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      color: var(--text-creme);
+    }
+
+    .affiliation-pill:hover {
+      border-color: var(--gold-primary);
+      color: var(--gold-200);
+    }
+
+    /* -------------------------------------------------------------
+       SECTION: DIRECT EXECUTIVE ENGAGEMENT & ADVISORY
+       ------------------------------------------------------------- */
+    .contact-executive-section {
+      background: radial-gradient(circle at 50% 100%, rgba(212, 175, 55, 0.1) 0%, transparent 65%);
+      position: relative;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(2.5rem, 6vw, 5.5rem);
+      align-items: start;
+    }
+
+    .contact-channels-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      margin-top: 2.5rem;
+    }
+
+    .channel-action-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem 1.75rem;
+      background: var(--bg-surface-1);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-sm);
+      transition: var(--transition-smooth);
+    }
+
+    .channel-action-card:hover {
+      border-color: var(--gold-primary);
+      background: var(--bg-surface-2);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    }
+
+    .channel-info-left {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .channel-icon-disc {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(212, 175, 55, 0.08);
+      border: 1px solid var(--gold-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold-primary);
+      flex-shrink: 0;
+    }
+
+    .channel-text-body h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-white);
+      letter-spacing: 0.04em;
+    }
+
+    .channel-text-body p {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .channel-arrow-right {
+      color: var(--gold-primary);
+      transition: transform 0.3s ease;
+    }
+
+    .channel-action-card:hover .channel-arrow-right {
+      transform: translateX(5px);
+      color: var(--gold-100);
+    }
+
+    /* Executive Advisory Inquiry Form */
+    .advisory-form-pane {
+      background: var(--bg-surface-1);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-md);
+      padding: clamp(2rem, 4vw, 3.25rem);
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7);
+      position: relative;
+    }
+
+    .advisory-form-pane::before {
+      content: "";
+      position: absolute;
+      top: -1px;
+      left: 15%;
+      right: 15%;
+      height: 1px;
+      background: var(--gold-gradient);
+    }
+
+    .form-group-field {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group-field label {
+      display: block;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-weight: 700;
+      color: var(--gold-primary);
+      margin-bottom: 0.6rem;
+    }
+
+    .form-group-field input,
+    .form-group-field select,
+    .form-group-field textarea {
+      width: 100%;
+      background: var(--bg-surface-2);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      padding: 0.9rem 1.15rem;
+      font-family: var(--font-sans);
+      font-size: 0.92rem;
+      color: var(--text-white);
+      transition: var(--transition-smooth);
+    }
+
+    .form-group-field input:focus,
+    .form-group-field select:focus,
+    .form-group-field textarea:focus {
+      outline: none;
+      border-color: var(--gold-primary);
+      box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+      background: var(--bg-surface-3);
+    }
+
+    .form-group-field textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    .form-submit-cta {
+      width: 100%;
+      margin-top: 1rem;
+      justify-content: center;
+    }
+
+    /* -------------------------------------------------------------
+       SITE FOOTER
+       ------------------------------------------------------------- */
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      padding: clamp(3rem, 6vw, 5rem) 0 2rem;
+      background: #020203;
+      position: relative;
+      z-index: 10;
+    }
+
+    .footer-top-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.8fr 0.8fr;
+      gap: 3rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .footer-brand-summary p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-top: 1rem;
+      max-width: 420px;
+    }
+
+    .footer-column-heading {
+      font-family: var(--font-display);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--gold-primary);
+      margin-bottom: 1.25rem;
+      font-weight: 700;
+    }
+
+    .footer-links-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .footer-links-list a {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .footer-links-list a:hover {
+      color: var(--gold-200);
+      padding-left: 4px;
+    }
+
+    .footer-bottom-row {
+      padding-top: 2rem;
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+    }
+
+    .footer-legal-note {
+      letter-spacing: 0.08em;
+    }
+
+    /* -------------------------------------------------------------
+       FLOATING WHATSAPP VIP BUTTON
+       ------------------------------------------------------------- */
+    .floating-vip-action {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 900;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 20px;
+      background: var(--bg-surface-2);
+      border: 1px solid var(--gold-primary);
+      border-radius: var(--radius-pill);
+      color: var(--gold-100);
+      font-size: 0.76rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-weight: 700;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.75), 0 0 20px rgba(212, 175, 55, 0.25);
+      transition: var(--transition-bounce);
+    }
+
+    .floating-vip-action:hover {
+      transform: translateY(-4px) scale(1.03);
+      background: var(--gold-primary);
+      color: #050505;
+      box-shadow: 0 15px 40px rgba(212, 175, 55, 0.45);
+    }
+
+    .floating-vip-action svg {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+    }
+
+    /* -------------------------------------------------------------
+       IMAGE LIGHTBOX MODAL
+       ------------------------------------------------------------- */
+    .lightbox-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(2, 2, 4, 0.95);
+      backdrop-filter: blur(20px);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.4s ease;
+    }
+
+    .lightbox-modal.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .lightbox-content {
+      max-width: min(90vw, 1000px);
+      max-height: 85vh;
+      position: relative;
+    }
+
+    .lightbox-content img {
+      max-width: 100%;
+      max-height: 85vh;
+      border: 1px solid var(--gold-border);
+      border-radius: var(--radius-sm);
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+      object-fit: contain;
+    }
+
+    .lightbox-close-btn {
+      position: absolute;
+      top: -45px;
+      right: 0;
+      color: var(--gold-200);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+
+    /* -------------------------------------------------------------
+       SCROLL REVEAL ANIMATIONS
+       ------------------------------------------------------------- */
+    .reveal-elem {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1), transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+      will-change: opacity, transform;
+    }
+
+    .reveal-elem.revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .stagger-1 { transition-delay: 0.1s; }
+    .stagger-2 { transition-delay: 0.2s; }
+    .stagger-3 { transition-delay: 0.3s; }
+    .stagger-4 { transition-delay: 0.4s; }
+
+    /* -------------------------------------------------------------
+       RESPONSIVE ADAPTATIONS (MOBILE FIRST CLASS EXPERIENCE)
+       ------------------------------------------------------------- */
+    @media (max-width: 1024px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 3.5rem;
+        text-align: left;
+      }
+
+      .hero-portrait-stage {
+        order: -1;
+      }
+
+      .portrait-canvas-wrapper {
+        width: min(380px, 80%);
+      }
+
+      .pillars-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .venture-dossier-card {
+        grid-template-columns: 1fr;
+      }
+
+      .venture-media-pane {
+        height: 280px;
+        order: -1;
+      }
+
+      .diplomacy-split-layout,
+      .honors-mosaic-container,
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .keynote-marquee-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer-top-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links, .nav-actions .btn-gold-outline {
+        display: none;
+      }
+
+      .menu-toggle {
+        display: flex;
+      }
+
+      .pillars-grid,
+      .keynote-marquee-container,
+      .testimonial-cards-grid,
+      .footer-top-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-stats-row {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+      }
+
+      .dual-narrative-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+
+      .display-1 {
+        font-size: clamp(2.3rem, 11vw, 3.4rem);
+      }
+
+      .floating-vip-action span {
+        display: none;
+      }
+
+      .floating-vip-action {
+        padding: 14px;
+        border-radius: 50%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Custom Cinematic Interactive Cursor Elements -->
+  <div class="custom-cursor-dot" id="cursorDot"></div>
+  <div class="custom-cursor-ring" id="cursorRing"></div>
+
+  <!-- Primary Floating Haute Header -->
+  <header class="header-nav" id="headerNav">
+    <div class="container nav-inner">
+      <a href="#top" class="brand-mark" aria-label="Isaac Agya Koomson Portfolio Home">
+        <div class="brand-monogram">
+          <span>KIA</span>
+        </div>
+        <div>
+          <span>ISAAC AGYA KOOMSON</span>
+        </div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#vision">Vision</a></li>
+          <li><a href="#pillars">Architecture</a></li>
+          <li><a href="#ventures">Ventures</a></li>
+          <li><a href="#diplomacy">Global Diplomacy</a></li>
+          <li><a href="#keynotes">Keynotes</a></li>
+          <li><a href="#endorsements">Endorsements</a></li>
+          <li><a href="#credentials">Honors</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#advisory" class="btn-gold-outline">
+          <span>Book Advisory</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Fullscreen Drawer Navigation -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="eyebrow" style="margin-bottom: 2rem;">Menu · Isaac Agya Koomson</div>
+    <ul class="mobile-nav-list">
+      <li><a href="#vision" class="mobile-link">01 / The Vision</a></li>
+      <li><a href="#pillars" class="mobile-link">02 / Architecture</a></li>
+      <li><a href="#ventures" class="mobile-link">03 / Flagship Ventures</a></li>
+      <li><a href="#diplomacy" class="mobile-link">04 / Global Diplomacy</a></li>
+      <li><a href="#keynotes" class="mobile-link">05 / Keynotes & Media</a></li>
+      <li><a href="#endorsements" class="mobile-link">06 / Endorsements</a></li>
+      <li><a href="#credentials" class="mobile-link">07 / Honors & Awards</a></li>
+      <li><a href="#advisory" class="mobile-link">08 / Direct Advisory</a></li>
+    </ul>
+    <div style="margin-top: 3rem; display: flex; gap: 1rem;">
+      <a href="https://wa.me/233241332246?text=Hello%20Isaac%2C%20I%20would%20like%20to%20schedule%20an%20executive%20consultation." class="btn-gold-solid" style="flex: 1; justify-content: center;">WhatsApp VIP Line</a>
+    </div>
+  </div>
+
+  <main id="top">
+    
+    <!-- =========================================================
+         00 / HERO SECTION — MASTERPIECE COMPOSITION
+         ========================================================= -->
+    <section class="hero-section">
+      <div class="hero-backdrop-glow"></div>
+      
+      <div class="container hero-grid">
+        <!-- Hero Text & Narrative Column -->
+        <div class="hero-narrative-column">
+          <div class="hero-status-pill reveal-elem">
+            <span class="pulse-indicator"></span>
+            <span>Accra, Ghana · Available for Advisory & Global Summits</span>
+          </div>
+
+          <div class="hero-title-group reveal-elem stagger-1">
+            <span class="title-lead">Economic Systems & Innovation Consultant</span>
+            <h1 class="name-headline">ISAAC AGYA<br><span class="gold-gradient-text gold-glow-text">KOOMSON.</span></h1>
+            <span class="mandate-phrase">"Translating bold vision into bankable economic reality."</span>
+          </div>
+
+          <p class="hero-narrative reveal-elem stagger-2">
+            Founder of <strong>KIA–Start Up Consult Ltd</strong> and <strong>Civitas Estate</strong>, Team Lead of <strong>HopeFusion Africa</strong>, and international delegate at the <strong>IMF / World Bank</strong> and <strong>UN FfD4</strong>. Designing scalable frameworks for SME acceleration, AI-driven enterprise transformation, and youth employment systems across emerging markets.
+          </p>
+
+          <!-- Executive Statistics Bar -->
+          <div class="hero-stats-row reveal-elem stagger-3">
+            <div class="stat-item">
+              <div class="stat-num">50<span>+</span></div>
+              <div class="stat-label">Startups & SMEs Mentored to Scale</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">43K<span>+</span></div>
+              <div class="stat-label">Global Followers on LinkedIn</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">10<span>%</span></div>
+              <div class="stat-label">African Youth Joblessness Target by 2030</div>
+            </div>
+          </div>
+
+          <!-- Hero Action Cluster -->
+          <div class="hero-cta-cluster reveal-elem stagger-4">
+            <a href="#advisory" class="btn-gold-solid">
+              <span>Initiate Consultation</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="assets/isaac-agya-koomson-resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-editorial-link">
+              <span>Executive Dossier (CV) ↗</span>
+            </a>
+            <a href="#ventures" class="btn-editorial-link">
+              <span>View Ventures ↓</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Portrait Stage -->
+        <div class="hero-portrait-stage reveal-elem stagger-2">
+          <div class="portrait-watermark">KIA</div>
+          
+          <div class="portrait-canvas-wrapper" data-lightbox="assets/portrait-main.jpg">
+            <div class="portrait-frame-border"></div>
+            <div class="portrait-frame-corner-tl"></div>
+            <div class="portrait-frame-corner-br"></div>
+            
+            <div class="portrait-visual-container">
+              <img src="assets/portrait-main.jpg" alt="Isaac Agya Koomson — Economic Systems & Innovation Consultant" width="800" height="1000" loading="eager">
+              
+              <div class="portrait-floating-plaque">
+                <div class="plaque-credentials">
+                  <h4>Isaac Agya Koomson (KIA)</h4>
+                  <p>Accra · ForbesBLK · YALI Network</p>
+                </div>
+                <div class="plaque-badge" title="Young Entrepreneur of the Year">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         01 / THE VISION & STRATEGIC MANIFESTO
+         ========================================================= -->
+    <section id="vision" class="section">
+      <div class="container">
+        <div class="eyebrow reveal-elem">01 / The Core Conviction</div>
+        
+        <div class="manifesto-quote-box reveal-elem">
+          <blockquote>
+            "Africa does not suffer from a deficit of <span>talent or ambition</span>. The urgent structural work is engineering the practical <span>systems, capital pathways, and business disciplines</span> that turn raw potential into durable economic power."
+          </blockquote>
+          <div class="manifesto-author">Isaac Agya Koomson · Systems Architect & Founder</div>
+        </div>
+
+        <div class="dual-narrative-grid">
+          <div class="narrative-col reveal-elem stagger-1">
+            <p>
+              Isaac’s work operates at the exact intersection where <strong>development policy meets marketplace execution</strong>. Having witnessed first-hand the friction points faced by emerging enterprises in Ghana and across Africa, his advisory practice is built on removing the barriers between ideation, bankable structuring, and sustainable operational growth.
+            </p>
+            <p>
+              Rather than treating entrepreneurship as an isolated survival mechanism, Isaac engineers <strong>collaborative ecosystem infrastructure</strong>. His methodologies connect founders to patient capital, corporate value chains, and contemporary AI tooling that magnifies output.
+            </p>
+          </div>
+          <div class="narrative-col reveal-elem stagger-2">
+            <p>
+              From participating in high-level multilateral forums—such as the <strong>IMF / World Bank Spring Meetings</strong> and the <strong>UN Financing for Development Conference in Seville</strong>—to running intensive 1-on-1 strategy sessions with SME founders in Accra, Isaac brings a dual lens: macro-policy fluency combined with granular business acumen.
+            </p>
+            <p>
+              His commitment is measurable: spearheading pan-African initiatives designed to accelerate enterprise resilience and contribute directly to a <strong>10% reduction in youth unemployment across Africa by 2030</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         02 / THE ARCHITECTURAL PILLARS (SIX CORES)
+         ========================================================= -->
+    <section id="pillars" class="section">
+      <div class="container">
+        <div class="eyebrow reveal-elem">02 / Methodology</div>
+        <h2 class="section-title reveal-elem">A MULTIDISCIPLINARY<br><em>FRAMEWORK FOR REVOLUTION.</em></h2>
+        <p class="lead-paragraph reveal-elem">
+          True economic transformation requires six tightly integrated capabilities operating in concert.
+        </p>
+
+        <div class="pillars-grid">
+          <!-- Pillar 1 -->
+          <article class="pillar-card reveal-elem">
+            <div class="pillar-header">
+              <span class="pillar-number">01</span>
+              <span class="pillar-icon-symbol">✦</span>
+            </div>
+            <div class="pillar-body">
+              <h3>BUILD</h3>
+              <p>Structuring ventures, business models, legal scaffolding, and operating systems capable of moving far beyond the vulnerable startup phase.</p>
+            </div>
+            <div class="pillar-footer-tag">Enterprise Foundation</div>
+          </article>
+
+          <!-- Pillar 2 -->
+          <article class="pillar-card reveal-elem stagger-1">
+            <div class="pillar-header">
+              <span class="pillar-number">02</span>
+              <span class="pillar-icon-symbol">✦</span>
+            </div>
+            <div class="pillar-body">
+              <h3>ENABLE</h3>
+              <p>Equipping founders and emerging business leaders with rigorous financial modeling, investment readiness, and execution discipline.</p>
+            </div>
+            <div class="pillar-footer-tag">Human Capital</div>
+          </article>
+
+          <!-- Pillar 3 -->
+          <article class="pillar-card reveal-elem stagger-2">
+            <div class="pillar-header">
+              <span class="pillar-number">03</span>
+              <span class="pillar-icon-symbol">✦</span>
+            </div>
+            <div class="pillar-body">
+              <h3>INNOVATE</h3>
+              <p>Demystifying and embedding Generative AI, predictive analytics, and digital workflows directly into everyday SME operations.</p>
+            </div>
+            <div class="pillar-footer-tag">Technology Leap</div>
+          </article>
+
+          <!-- Pillar 4 -->
+          <article class="pillar-card reveal-elem">
+            <div class="pillar-header">
+              <span class="pillar-number">04</span>
+              <span class="pillar-icon-symbol">✦</span>
+            </div>
+            <div class="pillar-body">
+              <h3>CONNECT</h3>
+              <p>Architecting multi-stakeholder conduits bridging grassroots innovators with angel syndicates, institutional capital, and diplomatic missions.</p>
+            </div>
+            <div class="pillar-footer-tag">Network Density</div>
+          </article>
+
+          <!-- Pillar 5 -->
+          <article class="pillar-card reveal-elem stagger-1">
+            <div class="pillar-header">
+              <span class="pillar-number">05</span>
+              <span class="pillar-icon-symbol">✦</span>
+            </div>
+            <div class="pillar-body">
+              <h3>SUSTAIN</h3>
+              <p>Pioneering climate-smart enterprise, circular supply chains, and green infrastructure aligned with the United Nations SDGs.</p>
+            </div>
+            <div class="pillar-footer-tag">Resilient Systems</div>
+          </article>
+
+          <!-- Pillar 6 -->
+          <article class="pillar-card reveal-elem stagger-2">
+            <div class="pillar-header">
+              <span class="pillar-number">06</span>
+              <span class="pillar-icon-symbol">✦</span>
+            </div>
+            <div class="pillar-body">
+              <h3>IMPACT</h3>
+              <p>Auditing and prioritizing tangible outcomes: verified job creation, revenue retention, community resilience, and continental equity.</p>
+            </div>
+            <div class="pillar-footer-tag">Tangible Legacy</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         03 / FLAGSHIP VENTURES & INSTITUTIONAL FOOTPRINT
+         ========================================================= -->
+    <section id="ventures" class="section">
+      <div class="container">
+        <div class="eyebrow reveal-elem">03 / Institutional Leadership</div>
+        <h2 class="section-title reveal-elem">ENTERPRISES SHAPING<br><em>THE CONTINENTAL LANDSCAPE.</em></h2>
+        <p class="lead-paragraph reveal-elem">
+          Direct entrepreneurial ownership and operational vehicles driving measurable change across commerce, urban living, and youth empowerment.
+        </p>
+
+        <div class="venture-dossier-list">
+          
+          <!-- Venture 1: KIA-Start Up Consult Ltd -->
+          <article class="venture-dossier-card reveal-elem">
+            <div class="venture-content-pane">
+              <div>
+                <div class="venture-meta-tags">
+                  <span class="tag-status">Active Platform</span>
+                  <span class="tag-timeline">2020 — Present · Accra, Ghana</span>
+                </div>
+                <div class="venture-headline">
+                  <h3>KIA–Start Up Consult Ltd</h3>
+                  <span class="venture-role-badge">Founder & Chief Executive Officer</span>
+                </div>
+                <p class="venture-body-text">
+                  A premier enterprise acceleration and innovation consultancy that serves startups, high-growth SMEs, and development agencies. Providing end-to-end strategic advisory in financial architecture, digital marketing, AI operational integration, fundraising readiness, and global market entry.
+                </p>
+
+                <div class="venture-metrics-row">
+                  <div class="venture-metric-point">
+                    <strong>50+ Enterprises</strong>
+                    <span>Mentored into bankability</span>
+                  </div>
+                  <div class="venture-metric-point">
+                    <strong>15+ Sectors</strong>
+                    <span>From Agribusiness to AI</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="venture-links-action">
+                <a href="https://kiastartupconsult.com" target="_blank" rel="noopener noreferrer" class="btn-gold-solid">
+                  <span>Visit Platform ↗</span>
+                </a>
+                <a href="https://wa.me/233241332246?text=Hello%20Isaac%2C%20I%20want%20to%20inquire%20about%20KIA-Start%20Up%20Consult%20services." class="btn-editorial-link">
+                  <span>Consulting Enquiry →</span>
+                </a>
+              </div>
+            </div>
+            
+            <div class="venture-media-pane" data-lightbox="assets/consulting-session.jpg">
+              <img src="assets/consulting-session.jpg" alt="Isaac Agya Koomson consulting session with enterprise client" loading="lazy">
+            </div>
+          </article>
+
+          <!-- Venture 2: HopeFusion Africa -->
+          <article class="venture-dossier-card reveal-elem">
+            <div class="venture-content-pane">
+              <div>
+                <div class="venture-meta-tags">
+                  <span class="tag-status">Pan-African Initiative</span>
+                  <span class="tag-timeline">2022 — Present · Africa-Wide</span>
+                </div>
+                <div class="venture-headline">
+                  <h3>HopeFusion Africa</h3>
+                  <span class="venture-role-badge">Team Lead & Co-Founder</span>
+                </div>
+                <p class="venture-body-text">
+                  A high-impact youth empowerment and entrepreneurship catalyst designed to address youth unemployment structurally across the African continent. Driving technical upskilling, mentorship hubs, and startup incubators aligned with the African Union Agenda 2063 and the UN Sustainable Development Goals.
+                </p>
+
+                <div class="venture-metrics-row">
+                  <div class="venture-metric-point">
+                    <strong>10% Target</strong>
+                    <span>Continental Youth Jobless Reduction</span>
+                  </div>
+                  <div class="venture-metric-point">
+                    <strong>Agenda 2030</strong>
+                    <span>Structured Roadmap Focus</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="venture-links-action">
+                <a href="https://hopefusionafrica.com/" target="_blank" rel="noopener noreferrer" class="btn-gold-solid">
+                  <span>Visit Initiative ↗</span>
+                </a>
+                <a href="#advisory" class="btn-editorial-link">
+                  <span>Partner With Us →</span>
+                </a>
+              </div>
+            </div>
+            
+            <div class="venture-media-pane" data-lightbox="assets/speaking-gdiw-table.jpg">
+              <img src="assets/speaking-gdiw-table.jpg" alt="HopeFusion Africa leadership discussion and planning" loading="lazy">
+            </div>
+          </article>
+
+          <!-- Venture 3: Civitas Estate and Maintenance -->
+          <article class="venture-dossier-card reveal-elem">
+            <div class="venture-content-pane">
+              <div>
+                <div class="venture-meta-tags">
+                  <span class="tag-status">Infrastructure & PropTech</span>
+                  <span class="tag-timeline">2025 — Present · Accra, Ghana</span>
+                </div>
+                <div class="venture-headline">
+                  <h3>Civitas Estate & Maintenance</h3>
+                  <span class="venture-role-badge">Founder & Managing Director</span>
+                </div>
+                <p class="venture-body-text">
+                  Pioneering sustainable urban development, green facility maintenance, and technology-enabled property management ecosystems in West Africa. Fostering SME vendor collaboration across construction, renewable energy installations, and modern urban sanitation.
+                </p>
+
+                <div class="venture-metrics-row">
+                  <div class="venture-metric-point">
+                    <strong>Smart PropTech</strong>
+                    <span>Automated facility operations</span>
+                  </div>
+                  <div class="venture-metric-point">
+                    <strong>Green Cities</strong>
+                    <span>Eco-friendly materials & solar</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="venture-links-action">
+                <a href="https://www.civitasestate.com/" target="_blank" rel="noopener noreferrer" class="btn-gold-solid">
+                  <span>Visit Civitas ↗</span>
+                </a>
+                <a href="#advisory" class="btn-editorial-link">
+                  <span>Partnership Inquiry →</span>
+                </a>
+              </div>
+            </div>
+            
+            <div class="venture-media-pane" data-lightbox="assets/portrait-outdoor-glasses.jpg">
+              <img src="assets/portrait-outdoor-glasses.jpg" alt="Civitas urban infrastructure leadership" loading="lazy">
+            </div>
+          </article>
+
+          <!-- Venture 4: Professionals for Humanity Ghana -->
+          <article class="venture-dossier-card reveal-elem">
+            <div class="venture-content-pane">
+              <div>
+                <div class="venture-meta-tags">
+                  <span class="tag-status">Multilateral NGO</span>
+                  <span class="tag-timeline">2021 — Present · Active in 15+ Countries</span>
+                </div>
+                <div class="venture-headline">
+                  <h3>Professionals for Humanity Ghana</h3>
+                  <span class="venture-role-badge">Executive Secretary</span>
+                </div>
+                <p class="venture-body-text">
+                  Coordinating national operations for a global humanitarian organization. Facilitating critical bilateral partnerships with foreign embassies, healthcare ministries, and international boards to deliver immunization to over 50,000 children globally, execute medical outreach missions, and implement climate sustainability initiatives.
+                </p>
+
+                <div class="venture-metrics-row">
+                  <div class="venture-metric-point">
+                    <strong>50,000+ Children</strong>
+                    <span>Immunization campaigns supported</span>
+                  </div>
+                  <div class="venture-metric-point">
+                    <strong>15+ Nations</strong>
+                    <span>Global humanitarian footprint</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="venture-links-action">
+                <a href="https://www.profohmed.org/" target="_blank" rel="noopener noreferrer" class="btn-gold-solid">
+                  <span>Visit ProfOhmed ↗</span>
+                </a>
+                <a href="#advisory" class="btn-editorial-link">
+                  <span>Humanitarian Inquiry →</span>
+                </a>
+              </div>
+            </div>
+            
+            <div class="venture-media-pane" data-lightbox="assets/executive-networking-1.jpg">
+              <img src="assets/executive-networking-1.jpg" alt="Multilateral NGO coordination meeting" loading="lazy">
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         04 / MULTILATERAL DIPLOMACY & GLOBAL POLICY
+         ========================================================= -->
+    <section id="diplomacy" class="section">
+      <div class="container">
+        <div class="eyebrow reveal-elem">04 / Global Diplomacy</div>
+        <h2 class="section-title reveal-elem">CONVENING AT THE<br><em>PINNACLE OF GLOBAL POLICY.</em></h2>
+        <p class="lead-paragraph reveal-elem">
+          Championing African enterprise, climate finance mechanisms, and structural innovation across sovereign platforms and multilateral summits.
+        </p>
+
+        <div class="diplomacy-split-layout" style="margin-top: 3.5rem;">
+          
+          <!-- Photo Mosaic of High-Level Summits -->
+          <div class="diplomacy-photo-mosaic reveal-elem">
+            <div class="mosaic-tile" data-lightbox="assets/diplomacy-undp-booth-2.jpg">
+              <img src="assets/diplomacy-undp-booth-2.jpg" alt="Isaac at the United Nations Development Programme (UNDP) Summit Booth" loading="lazy">
+              <div class="mosaic-caption">United Nations Development Programme (UNDP)</div>
+            </div>
+            <div class="mosaic-tile" data-lightbox="assets/diplomacy-summit-delegate.jpg">
+              <img src="assets/diplomacy-summit-delegate.jpg" alt="Isaac Agya Koomson with International Diplomatic Delegate at Summit" loading="lazy">
+              <div class="mosaic-caption">International Summit Seville</div>
+            </div>
+            <div class="mosaic-tile" style="grid-column: span 2;" data-lightbox="assets/diplomacy-undp-booth-1.jpg">
+              <img src="assets/diplomacy-undp-booth-1.jpg" alt="Financing for Development Diplomatic Dialogue" loading="lazy">
+              <div class="mosaic-caption">UN Financing for Development Forum</div>
+            </div>
+          </div>
+
+          <!-- Delegation Credentials Stack -->
+          <div class="delegation-roster reveal-elem stagger-2">
+            
+            <div class="delegation-entry">
+              <div class="delegation-badge-title">Washington, D.C.</div>
+              <h4>IMF / World Bank Spring Meetings</h4>
+              <p>Active delegate contributing to global financial architecture dialogues, emerging market capital liquidity, and catalytic funding mechanisms for African private enterprise.</p>
+            </div>
+
+            <div class="delegation-entry">
+              <div class="delegation-badge-title">Seville, Spain · United Nations</div>
+              <h4>Fourth International Conference on Financing for Development (FfD4)</h4>
+              <p>Climate Finance Delegate negotiating systemic reforms, climate-resilient enterprise financing, and mobilization of blended capital for developing countries.</p>
+            </div>
+
+            <div class="delegation-entry">
+              <div class="delegation-badge-title">Global Summit</div>
+              <h4>World Bank Youth Summit</h4>
+              <p>Delegate advancing youth-led technological innovation, AI workforce transition, and sustainable enterprise employment programs across Sub-Saharan Africa.</p>
+            </div>
+
+            <div class="delegation-entry">
+              <div class="delegation-badge-title">Nairobi, Kenya · UNEP</div>
+              <h4>UN Environment Assembly (UNEA)</h4>
+              <p>Participated in multilateral policy negotiations for green economy transitions, circular waste solutions, and environmental sustainability standards for African manufacturing.</p>
+            </div>
+
+            <div class="delegation-entry">
+              <div class="delegation-badge-title">Biodiversity & Ecosystems</div>
+              <h4>IPBES-12 Plenary Delegate</h4>
+              <p>Engaging on science-policy interfaces regarding biodiversity conservation, sustainable land management, and green agribusiness incentives for local farming communities.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         05 / KEYNOTES, STAGE & THOUGHT LEADERSHIP
+         ========================================================= -->
+    <section id="keynotes" class="section">
+      <div class="container">
+        <div class="eyebrow reveal-elem">05 / Keynotes & Media</div>
+        <h2 class="section-title reveal-elem">PROBING QUESTIONS<br><em>FOR AN ACCELERATING AGE.</em></h2>
+        <p class="lead-paragraph reveal-elem">
+          A sought-after keynote speaker, panellist, and analyst shaping the discourse on the future of work, artificial intelligence adoption, and African industrialization.
+        </p>
+
+        <div class="keynote-marquee-container">
+          
+          <!-- Keynote 1: AETF.Ai Conference 2025 -->
+          <article class="keynote-card reveal-elem">
+            <div class="keynote-thumb" data-lightbox="assets/speaking-aetf-solo.jpg">
+              <img src="assets/speaking-aetf-solo.jpg" alt="Isaac Keynote Speaker at AETF.Ai Conference 2025" loading="lazy">
+              <span class="keynote-badge-tag">Keynote · 2025</span>
+            </div>
+            <div class="keynote-body">
+              <div>
+                <div class="keynote-meta">Africa Education Trust Fund (AETF)</div>
+                <h4>AI for Smart Urbanisation: Reimagining Africa's Metropolises</h4>
+                <p>Delivered strategic frameworks on deploying agentic AI, municipal sensor networks, and decentralized energy grids to turn rapid African urbanization into an economic advantage.</p>
+              </div>
+              <div class="keynote-footer-action">
+                <span class="keynote-action-btn" data-lightbox="assets/speaking-aetf-panel.jpg">View Panel Photo ↗</span>
+                <span style="font-size: 0.7rem; color: var(--gold-primary);">Plenary Hall</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Keynote 2: Ghana Digital & Innovation Week -->
+          <article class="keynote-card reveal-elem stagger-1">
+            <div class="keynote-thumb" data-lightbox="assets/speaking-gdiw-yellow-mic.jpg">
+              <img src="assets/speaking-gdiw-yellow-mic.jpg" alt="Isaac Speaking at Ghana Digital & Innovation Week" loading="lazy">
+              <span class="keynote-badge-tag">GDIW Plenary</span>
+            </div>
+            <div class="keynote-body">
+              <div>
+                <div class="keynote-meta">National Entrepreneurship & Innovation Programme</div>
+                <h4>The Human + AI Hybrid Workforce: Catalysing Continental Change</h4>
+                <p>Addressed government stakeholders, tech founders, and international partners on transitioning African talent from reactive knowledge work into high-leverage AI-augmented leadership.</p>
+              </div>
+              <div class="keynote-footer-action">
+                <span class="keynote-action-btn" data-lightbox="assets/speaking-gdiw-yellow-gesturing.jpg">View Stage Photo ↗</span>
+                <span style="font-size: 0.7rem; color: var(--gold-primary);">Main Stage</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Keynote 3: DataGlobal Hub -->
+          <article class="keynote-card reveal-elem stagger-2">
+            <div class="keynote-thumb" data-lightbox="assets/promo-35k-followers.jpg">
+              <img src="assets/promo-35k-followers.jpg" alt="DataGlobal Hub and LinkedIn 43K+ Growth Feature" loading="lazy">
+              <span class="keynote-badge-tag">Thought Leadership</span>
+            </div>
+            <div class="keynote-body">
+              <div>
+                <div class="keynote-meta">DataGlobal Hub Elite Fellow</div>
+                <h4>Reskilling for the Generative AI Era & Digital Growth</h4>
+                <p>Sharing actionable frameworks that built a 43,000+ follower professional community on LinkedIn with over 4 Million professional impressions across emerging markets.</p>
+              </div>
+              <div class="keynote-footer-action">
+                <a href="https://www.linkedin.com/in/isaac-agya-koomson/" target="_blank" rel="noopener noreferrer" class="keynote-action-btn">
+                  Read on LinkedIn ↗
+                </a>
+                <span style="font-size: 0.7rem; color: var(--gold-primary);">4M+ Reach</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         06 / VERIFIED ENDORSEMENTS & PEER TESTIMONIALS
+         ========================================================= -->
+    <section id="endorsements" class="section">
+      <div class="container">
+        <div class="eyebrow reveal-elem">06 / Social Proof & Peer Trust</div>
+        <h2 class="section-title reveal-elem">VERIFIED EXECUTIVE<br><em>RECOMMENDATIONS.</em></h2>
+        <p class="lead-paragraph reveal-elem">
+          Unsolicited testimonials and executive recommendations from global mentors, enterprise CEOs, tech leaders, and client partners on LinkedIn.
+        </p>
+
+        <div class="testimonial-carousel-wrapper reveal-elem">
+          
+          <div class="testimonial-cards-grid">
+            
+            <!-- Endorsement 1: Joseph Fabian Ayitevi -->
+            <article class="testimonial-card">
+              <div class="quote-icon-mark">“</div>
+              <blockquote class="testimonial-quote-text">
+                "Isaac is a visionary leader who is reshaping Africa's growth trajectory. His unwavering commitment to sustainable development, combined with his extensive knowledge of the startup ecosystem and impact investing, makes him an invaluable asset to any organization or initiative. Isaac brings a wealth of knowledge and a global perspective."
+              </blockquote>
+              <div class="testimonial-author-block">
+                <div class="author-avatar-initials">JA</div>
+                <div class="author-meta-details">
+                  <h5>Joseph Fabian Ayitevi</h5>
+                  <p>CEO, CogniHive AI Technologies Ltd · AI & Machine Learning Leader</p>
+                  <span class="author-endorsement-relation">Industry Collaborator</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Endorsement 2: Daniel Glyde -->
+            <article class="testimonial-card">
+              <div class="quote-icon-mark">“</div>
+              <blockquote class="testimonial-quote-text">
+                "Isaac is a tremendous individual who cares and has big plans. His ideas to transform the economy of his country are nothing short of astounding and his advice for startups in general is first class. I would highly recommend him."
+              </blockquote>
+              <div class="testimonial-author-block">
+                <div class="author-avatar-initials">DG</div>
+                <div class="author-meta-details">
+                  <h5>Daniel Glyde</h5>
+                  <p>Peak Performance Coach for Executives · Founder, Positive Masculinity</p>
+                  <span class="author-endorsement-relation">Executive Mentor to Isaac</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Endorsement 3: Jandeep Singh Sethi -->
+            <article class="testimonial-card">
+              <div class="quote-icon-mark">“</div>
+              <blockquote class="testimonial-quote-text">
+                "Isaac is a startup coach and consultant who is extremely passionate and curious to help grow and sustain startup businesses across Africa. He has lots of knowledge and experience in his field, loves to share ideas, and serves as a person of the people. Isaac is a valuable asset for top management."
+              </blockquote>
+              <div class="testimonial-author-block">
+                <div class="author-avatar-initials">JS</div>
+                <div class="author-meta-details">
+                  <h5>Jandeep Singh Sethi</h5>
+                  <p>Global Personal Brand Leader (417K+ Followers) · HR & Marketing Leader</p>
+                  <span class="author-endorsement-relation">Global Partner</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Endorsement 4: Faustina Esi Yankson -->
+            <article class="testimonial-card">
+              <div class="quote-icon-mark">“</div>
+              <blockquote class="testimonial-quote-text">
+                "Mr. Agya Koomson and his team are just the ideal set of people you will love to encounter. They work under pressure and with little resources. Isaac saw our ideas, did the designs, the canvas, and a whole lot... his happiness was what the project entailed, the employment creation. I recommend him for any bankable startup investment."
+              </blockquote>
+              <div class="testimonial-author-block">
+                <div class="author-avatar-initials">FY</div>
+                <div class="author-meta-details">
+                  <h5>Faustina Esi Yankson</h5>
+                  <p>CEO, Kanaan Farms Limited · Admin Manager, Bambace Ltd</p>
+                  <span class="author-endorsement-relation">Client Partner</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Endorsement 5: Timothy "Tim" Hughes -->
+            <article class="testimonial-card">
+              <div class="quote-icon-mark">“</div>
+              <blockquote class="testimonial-quote-text">
+                "Isaac is a leading light in the startup community. The content he shares, the webinar series he runs, in fact his whole position is about serving and empowerment. Selflessly guiding people to take those first steps in the right direction to starting that startup and being an entrepreneur."
+              </blockquote>
+              <div class="testimonial-author-block">
+                <div class="author-avatar-initials">TH</div>
+                <div class="author-meta-details">
+                  <h5>Timothy "Tim" Hughes</h5>
+                  <p>Pioneer of Social Selling · Author · Global Bestselling Strategist</p>
+                  <span class="author-endorsement-relation">Mentor</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Endorsement 6: John Arthur -->
+            <article class="testimonial-card">
+              <div class="quote-icon-mark">“</div>
+              <blockquote class="testimonial-quote-text">
+                "I have known Mr. Isaac Agya Koomson as a great friend over the past 7 years. He's proven to be a great asset and a man of his word. Walking with him, I have realized he is a man neither afraid of risks nor mistakes. If there is anyone I would love to recommend to Africa and the whole world to spearhead startups, it is Mr. Isaac Agya Koomson."
+              </blockquote>
+              <div class="testimonial-author-block">
+                <div class="author-avatar-initials">JA</div>
+                <div class="author-meta-details">
+                  <h5>John Arthur</h5>
+                  <p>Author & CEO, Friendship Publishing · Board Colleague</p>
+                  <span class="author-endorsement-relation">Governing Board Executive</span>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         07 / HONORS, AWARDS & ACADEMIC CREDENTIALS
+         ========================================================= -->
+    <section id="credentials" class="section">
+      <div class="container">
+        <div class="eyebrow reveal-elem">07 / Distinction & Validation</div>
+        <h2 class="section-title reveal-elem">HONORS, CERTIFICATIONS<br><em>& INSTITUTIONAL CREDENTIALS.</em></h2>
+        <p class="lead-paragraph reveal-elem">
+          Formal recognition from industry chambers, continental bodies, and globally accredited institutions.
+        </p>
+
+        <div class="honors-mosaic-container">
+          
+          <!-- Award Visual Spotlight Card -->
+          <div class="award-spotlight-card reveal-elem">
+            <div class="award-spotlight-image" data-lightbox="assets/awards-africa-sme-solo.jpg">
+              <img src="assets/awards-africa-sme-solo.jpg" alt="Isaac Agya Koomson receiving Africa SME Award" loading="lazy">
+            </div>
+            <div class="award-spotlight-content">
+              <span class="award-year-tag">Honors & Laurels · 2023</span>
+              <h3>Young Entrepreneur of the Year</h3>
+              <p>Awarded by the <strong>Ghana Chamber of Young Entrepreneurs (GCYE)</strong> for exemplary leadership in startup incubation, enterprise support, and job creation frameworks across Ghana.</p>
+              <div style="margin-top: 1rem;">
+                <span class="tag-status" data-lightbox="assets/awards-africa-sme-stage.jpg">View 7th Industry CEO Gala Photo ↗</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Credentials Ledger Stack -->
+          <div class="credentials-ledger reveal-elem stagger-1">
+            
+            <div class="credential-block">
+              <div class="credential-label">Academic Degree</div>
+              <h4>Bachelor of Business Administration (Accounting)</h4>
+              <p>University of Education, Winneba (UEW) — Comprehensive grounding in corporate accounting, financial governance, auditing, and macroeconomics.</p>
+            </div>
+
+            <div class="credential-block">
+              <div class="credential-label">Professional Specializations & Certifications</div>
+              <h4>Google AI & Enterprise Certifications</h4>
+              <ul style="list-style: none; margin-top: 0.75rem; display: flex; flex-direction: column; gap: 0.45rem; font-size: 0.85rem; color: var(--text-creme);">
+                <li>✦ <strong>Google AI Startup School</strong> — Machine Learning Deployment & AI Ecosystems</li>
+                <li>✦ <strong>Google Foundations of Project Management</strong> — Coursera Certified</li>
+                <li>✦ <strong>AI & Machine Learning Foundations</strong> — Udemy Executive Series</li>
+                <li>✦ <strong>Google Analytics (GA4) & Looker Studio</strong> — Data-Driven Enterprise Intelligence</li>
+                <li>✦ <strong>HubSpot Content Marketing Certification</strong> — Growth & Audience Architecture</li>
+              </ul>
+            </div>
+
+            <div class="credential-block">
+              <div class="credential-label">Elite Institutional Affiliations</div>
+              <h4>Global Professional Networks</h4>
+              <div class="affiliations-pills-row">
+                <span class="affiliation-pill">ForbesBLK Network</span>
+                <span class="affiliation-pill">Ghana Chamber of Young Entrepreneurs</span>
+                <span class="affiliation-pill">YALI Network (Young African Leaders)</span>
+                <span class="affiliation-pill">DataGlobal Hub Elite Fellow</span>
+                <span class="affiliation-pill">United Nations Environment Delegate</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         08 / DIRECT EXECUTIVE ADVISORY & ENGAGEMENT
+         ========================================================= -->
+    <section id="advisory" class="section contact-executive-section">
+      <div class="container">
+        <div class="eyebrow reveal-elem">08 / Strategic Collaboration</div>
+        
+        <div class="contact-grid">
+          
+          <!-- Contact Left Info & Channels -->
+          <div class="contact-info-column reveal-elem">
+            <h2 class="section-title">WHAT ARE WE<br><em>BUILDING TOGETHER?</em></h2>
+            <p class="lead-paragraph" style="margin-bottom: 2rem;">
+              Whether you are an institution designing an enterprise support program, an investor seeking bankable ventures in Africa, an event organizer securing a keynote speaker, or a founder scaling a company—the conversation begins with the problem.
+            </p>
+
+            <div class="contact-channels-stack">
+              
+              <!-- Direct WhatsApp Line -->
+              <a href="https://wa.me/233241332246?text=Hello%20Isaac%2C%20I%20would%20like%20to%20schedule%20an%20executive%20consultation." class="channel-action-card" target="_blank" rel="noopener noreferrer">
+                <div class="channel-info-left">
+                  <div class="channel-icon-disc">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.299.144.35.49 1.196.533 1.284.043.088.072.19.014.305-.058.115-.087.187-.173.289l-.26.307c-.087.086-.178.18-.076.354.101.174.449.741.964 1.2 1.018.908 1.341 1.026 1.529 1.12.188.094.298.079.409-.049.111-.128.476-.554.603-.744.127-.19.255-.16.43-.095.175.065 1.111.524 1.303.62.192.096.32.144.368.226.048.082.048.476-.096.881z"/>
+                    </svg>
+                  </div>
+                  <div class="channel-text-body">
+                    <h4>Direct WhatsApp VIP Line</h4>
+                    <p>+233 24 133 2246 · Immediate Response</p>
+                  </div>
+                </div>
+                <div class="channel-arrow-right">→</div>
+              </a>
+
+              <!-- Executive Email -->
+              <a href="mailto:isaacagyakoomson@yahoo.com?subject=Strategic%20Advisory%20Inquiry%20via%20Portfolio" class="channel-action-card">
+                <div class="channel-info-left">
+                  <div class="channel-icon-disc">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="channel-text-body">
+                    <h4>Confidential Email Inquiries</h4>
+                    <p>isaacagyakoomson@yahoo.com</p>
+                  </div>
+                </div>
+                <div class="channel-arrow-right">→</div>
+              </a>
+
+              <!-- Official Web Platform -->
+              <a href="https://kiastartupconsult.com" target="_blank" rel="noopener noreferrer" class="channel-action-card">
+                <div class="channel-info-left">
+                  <div class="channel-icon-disc">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="2" y1="12" x2="22" y2="12"></line>
+                      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                  </div>
+                  <div class="channel-text-body">
+                    <h4>KIA-Start Up Consult Official Portal</h4>
+                    <p>www.kiastartupconsult.com</p>
+                  </div>
+                </div>
+                <div class="channel-arrow-right">↗</div>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- Advisory Request Dispatch Form -->
+          <div class="advisory-form-pane reveal-elem stagger-2">
+            <h3 style="font-family: var(--font-serif); font-size: 2rem; font-weight: 400; margin-bottom: 0.5rem; color: var(--text-white);">
+              Dispatch An <span class="gold-gradient-text">Advisory Brief</span>
+            </h3>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 2rem;">
+              Fill out this confidential brief. Isaac or his executive secretariat will respond within 24 hours.
+            </p>
+
+            <form id="consultForm" onsubmit="handleFormSubmit(event)">
+              <div class="form-group-field">
+                <label for="fullName">Your Name & Title</label>
+                <input type="text" id="fullName" placeholder="e.g. Dr. Kwesi Mensah, Investment Director" required>
+              </div>
+
+              <div class="form-group-field">
+                <label for="orgName">Organization / Institution</label>
+                <input type="text" id="orgName" placeholder="e.g. Pan-African Capital Syndicate / Global NGO" required>
+              </div>
+
+              <div class="form-group-field">
+                <label for="inquiryType">Primary Collaboration Area</label>
+                <select id="inquiryType" required>
+                  <option value="" disabled selected>Select an engagement track</option>
+                  <option value="Keynote Speaking & Panel Moderation">Keynote Speaking & Global Summit Panel</option>
+                  <option value="SME Acceleration & Incubation Advisory">SME Acceleration & Incubation Program Design</option>
+                  <option value="AI Adoption Strategy for Enterprise">AI & Digital Transformation Strategy</option>
+                  <option value="Climate Finance & Green Urbanism">Climate Finance & Sustainable Urban Infrastructure</option>
+                  <option value="Multilateral Policy & Development Partnership">Multilateral Policy & Institutional Partnership</option>
+                  <option value="Other Confidential Inquiries">Other Confidential Strategic Matter</option>
+                </select>
+              </div>
+
+              <div class="form-group-field">
+                <label for="briefMessage">Context & Challenge Synopsis</label>
+                <textarea id="briefMessage" placeholder="Outline the core objective, timeline, and key stakeholders..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-gold-solid form-submit-cta" id="submitBtn">
+                <span>Transcribe Brief to WhatsApp / Email</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- VIP Floating WhatsApp Direct Contact -->
+  <a href="https://wa.me/233241332246?text=Hello%20Isaac%2C%20I%20would%20like%20to%20connect%20with%20you%20regarding%20an%20executive%20opportunity." class="floating-vip-action" target="_blank" rel="noopener noreferrer" aria-label="Direct WhatsApp message">
+    <svg viewBox="0 0 24 24">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.299.144.35.49 1.196.533 1.284.043.088.072.19.014.305-.058.115-.087.187-.173.289l-.26.307c-.087.086-.178.18-.076.354.101.174.449.741.964 1.2 1.018.908 1.341 1.026 1.529 1.12.188.094.298.079.409-.049.111-.128.476-.554.603-.744.127-.19.255-.16.43-.095.175.065 1.111.524 1.303.62.192.096.32.144.368.226.048.082.048.476-.096.881z"/>
+    </svg>
+    <span>Direct WhatsApp</span>
+  </a>
+
+  <!-- Lightbox Modal for High-Resolution Photography -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-content">
+      <button class="lightbox-close-btn" id="lightboxClose" aria-label="Close Lightbox">&times;</button>
+      <img src="" id="lightboxImg" alt="Enlarged Visual">
+    </div>
+  </div>
+
+  <!-- Haute Noir & Gold Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        
+        <div class="footer-brand-summary">
+          <div class="brand-mark">
+            <div class="brand-monogram"><span>KIA</span></div>
+            <span>ISAAC AGYA KOOMSON</span>
+          </div>
+          <p>
+            Economic Systems Strategist, Innovation Consultant, and Founder. Translating developmental policy into sustainable, scalable enterprise growth and youth employment frameworks across Africa.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-column-heading">Navigation</div>
+          <ul class="footer-links-list">
+            <li><a href="#vision">The Manifesto</a></li>
+            <li><a href="#pillars">Methodological Pillars</a></li>
+            <li><a href="#ventures">Flagship Enterprises</a></li>
+            <li><a href="#diplomacy">Multilateral Delegations</a></li>
+            <li><a href="#keynotes">Keynotes & Panels</a></li>
+            <li><a href="#endorsements">Verified Testimonials</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-column-heading">Global Networks</div>
+          <ul class="footer-links-list">
+            <li><a href="https://www.linkedin.com/in/isaac-agya-koomson/" target="_blank" rel="noopener noreferrer">LinkedIn (43K+ Community) ↗</a></li>
+            <li><a href="https://web.facebook.com/reel/1829323291321760" target="_blank" rel="noopener noreferrer">Facebook Reel Broadcast ↗</a></li>
+            <li><a href="https://kiastartupconsult.com" target="_blank" rel="noopener noreferrer">KIA-Start Up Consult ↗</a></li>
+            <li><a href="https://hopefusionafrica.com/" target="_blank" rel="noopener noreferrer">HopeFusion Africa ↗</a></li>
+            <li><a href="https://www.civitasestate.com/" target="_blank" rel="noopener noreferrer">Civitas Estate ↗</a></li>
+            <li><a href="https://www.profohmed.org/" target="_blank" rel="noopener noreferrer">Professionals for Humanity ↗</a></li>
+            <li><a href="assets/isaac-agya-koomson-resume.pdf" target="_blank" rel="noopener noreferrer">Download Curriculum Vitae ↗</a></li>
+            <li><a href="mailto:isaacagyakoomson@yahoo.com">Confidential Email Line ↗</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-row">
+        <div class="footer-legal-note">
+          © <span id="currentYear"></span> Isaac Agya Koomson (KIA). All Rights Reserved. Accra, Ghana.
+        </div>
+        <div style="display: flex; gap: 16px; color: var(--gold-primary); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase;">
+          <span>Build</span> · <span>Enable</span> · <span>Innovate</span> · <span>Connect</span> · <span>Sustain</span> · <span>Impact</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- -------------------------------------------------------------
+       INTERACTIVE JAVASCRIPT LOGIC
+       ------------------------------------------------------------- -->
+  <script>
+    // Remove no-js
+    document.documentElement.classList.remove('no-js');
+
+    // Dynamic Year
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // 1. Navigation Scroll Effect & Active Section Highlighting
+    const header = document.getElementById('headerNav');
+    const sections = document.querySelectorAll('section[id], main#top');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 40) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+
+      let currentSection = '';
+      sections.forEach(sec => {
+        const top = sec.offsetTop - 120;
+        const height = sec.offsetHeight;
+        if (window.scrollY >= top && window.scrollY < top + height) {
+          currentSection = sec.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${currentSection}`) {
+          link.classList.add('active');
+        }
+      });
+    }, { passive: true });
+
+    // 2. Mobile Drawer Navigation
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileDrawer = document.getElementById('mobileDrawer');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    menuToggle.addEventListener('click', () => {
+      mobileDrawer.classList.toggle('open');
+      menuToggle.classList.toggle('active');
+    });
+
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileDrawer.classList.remove('open');
+        menuToggle.classList.remove('active');
+      });
+    });
+
+    // 3. Custom Magnetic & Floating Cursor
+    const cursorDot = document.getElementById('cursorDot');
+    const cursorRing = document.getElementById('cursorRing');
+    let mouseX = window.innerWidth / 2, mouseY = window.innerHeight / 2;
+    let ringX = mouseX, ringY = mouseY;
+
+    window.addEventListener('mousemove', (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+      cursorDot.style.left = `${mouseX}px`;
+      cursorDot.style.top = `${mouseY}px`;
+    });
+
+    function animateCursorRing() {
+      ringX += (mouseX - ringX) * 0.15;
+      ringY += (mouseY - ringY) * 0.15;
+      cursorRing.style.left = `${ringX}px`;
+      cursorRing.style.top = `${ringY}px`;
+      requestAnimationFrame(animateCursorRing);
+    }
+    animateCursorRing();
+
+    // Hover effect on interactive elements
+    const interactiveTargets = document.querySelectorAll('a, button, input, select, textarea, .portrait-canvas-wrapper, .mosaic-tile, .keynote-thumb, .award-spotlight-image');
+    interactiveTargets.forEach(el => {
+      el.addEventListener('mouseenter', () => document.body.classList.add('hovering'));
+      el.addEventListener('mouseleave', () => document.body.classList.remove('hovering'));
+    });
+
+    // 4. Scroll Reveal Intersection Observer
+    const revealElements = document.querySelectorAll('.reveal-elem');
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      rootMargin: '0px 0px -60px 0px',
+      threshold: 0.12
+    });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // 5. Image Lightbox for High-Resolution Photography
+    const lightboxModal = document.getElementById('lightboxModal');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxClose = document.getElementById('lightboxClose');
+    const lightboxTriggers = document.querySelectorAll('[data-lightbox]');
+
+    lightboxTriggers.forEach(trigger => {
+      trigger.style.cursor = 'pointer';
+      trigger.addEventListener('click', (e) => {
+        e.preventDefault();
+        const src = trigger.getAttribute('data-lightbox');
+        if (src) {
+          lightboxImg.src = src;
+          lightboxModal.classList.add('active');
+        }
+      });
+    });
+
+    lightboxClose.addEventListener('click', () => {
+      lightboxModal.classList.remove('active');
+    });
+
+    lightboxModal.addEventListener('click', (e) => {
+      if (e.target === lightboxModal) {
+        lightboxModal.classList.remove('active');
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && lightboxModal.classList.contains('active')) {
+        lightboxModal.classList.remove('active');
+      }
+    });
+
+    // 6. Interactive Contact Dispatcher Form
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('fullName').value;
+      const org = document.getElementById('orgName').value;
+      const track = document.getElementById('inquiryType').value;
+      const notes = document.getElementById('briefMessage').value;
+
+      const formattedMsg = `*EXECUTIVE ADVISORY INQUIRY*%0A%0A*Client:* ${encodeURIComponent(name)}%0A*Organization:* ${encodeURIComponent(org)}%0A*Engagement Track:* ${encodeURIComponent(track)}%0A*Brief:* ${encodeURIComponent(notes)}`;
+      
+      const whatsappURL = `https://wa.me/233241332246?text=${formattedMsg}`;
+      
+      // Open in new tab
+      window.open(whatsappURL, '_blank');
+      
+      const submitBtn = document.getElementById('submitBtn');
+      submitBtn.innerHTML = `<span>Brief Dispatched to VIP WhatsApp ✓</span>`;
+      submitBtn.style.background = '#10b981';
+      submitBtn.style.color = '#fff';
+    }
+  </script>
+</body>
+</html>
