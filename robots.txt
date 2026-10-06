@@ -1,0 +1,20 @@
+# robots.txt — Isaac Agya Koomson (KIA) Official Portfolio
+# https://isaackia.github.io/Isaac-Agya-Koomson/
+
+User-agent: *
+Allow: /
+Disallow: /assets/*.bak
+Disallow: /*.bak
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://isaackia.github.io/Isaac-Agya-Koomson/sitemap.xml
