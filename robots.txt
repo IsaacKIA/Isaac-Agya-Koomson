@@ -1,5 +1,5 @@
 # robots.txt — Isaac Agya Koomson (KIA) Official Portfolio
-# https://isaackia.github.io/Isaac-Agya-Koomson/
+# https://isaac.kiastartupconsult.com/
 
 User-agent: *
 Allow: /
@@ -17,4 +17,5 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://isaackia.github.io/Isaac-Agya-Koomson/sitemap.xml
+Sitemap: https://isaac.kiastartupconsult.com/sitemap.xml
+
